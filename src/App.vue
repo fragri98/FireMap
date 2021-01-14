@@ -41,7 +41,7 @@ html, body {
   max-width: 100%;
   overflow-x: hidden;
 }
-#app {
+body {
   background-color: #E9967A;
   color: #000;
   width: 100vw;

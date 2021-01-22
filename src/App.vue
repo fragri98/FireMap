@@ -24,7 +24,7 @@ export default {
   },
   mounted: async function() {
     const response = await fetch(
-      "https://d1sat59n3r2spx.cloudfront.net/static/s2impact-global-fire-21-28-agosto.json"
+      "https://cors-anywhere.herokuapp.com/http://jsonkeeper.com/b/8W8M"
     );
     const data = await response.json();
     this.firesDataList = data;

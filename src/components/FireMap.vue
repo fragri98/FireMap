@@ -40,7 +40,7 @@ export default {
       presentFilter: "",
       filteredFires: [],
       url: "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
-      zoom: 3,
+      zoom: 2,
       center: [41.9109, 12.4818],
       minZoom: 1.5,
     };
